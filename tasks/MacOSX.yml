@@ -1,0 +1,5 @@
+- name: Install Ripgrep for MacOS
+  become: no
+  homebrew:
+      name: ripgrep
+      state: latest
